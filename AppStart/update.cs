@@ -21,7 +21,7 @@ namespace AppStart
                 Directory.CreateDirectory(resourceDownladedFolder);
             }
 
-            updateChecked = webdata.downloadFormWeb(downloadsURL, versionFile, resourceDownladedFolder);
+            updateChecked = webdata.downloadFromWeb(downloadsURL, versionFile, resourceDownladedFolder);
 
             if (updateChecked)
             {
@@ -35,7 +35,7 @@ namespace AppStart
 
         public static void installUpdateNow(string downloadsURL, string filename, string downloadTo, bool unzip)
         {
-            bool downloadSuccess = webdata.downloadFormWeb(downloadsURL, filename, downloadTo);
+            bool downloadSuccess = webdata.downloadFromWeb(downloadsURL, filename, downloadTo);
 
             if (unzip)
             {

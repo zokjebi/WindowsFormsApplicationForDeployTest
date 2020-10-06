@@ -1,0 +1,2 @@
+ApplicationName|Version|Release date|downloadUrl|FileName
+WindowsFormsApplicationForDeployTest|1.000|04/17/2013|http://www.fonesoft.co.kr/SoftwareUpdate/DeployTest/|UM.zip
