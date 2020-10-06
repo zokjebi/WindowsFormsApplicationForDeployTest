@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplicationForD
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DeployTestSetup", "DeployTestSetup\DeployTestSetup.vdproj", "{431A5050-D86B-4599-ADE7-C417E54F79C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStart", "AppStart\AppStart.csproj", "{A8DB53F5-E615-4A56-9ABF-25D91A2037ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{F361CCD0-7737-4776-B864-3671A67507A9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{431A5050-D86B-4599-ADE7-C417E54F79C4}.Debug|Any CPU.ActiveCfg = Debug
 		{431A5050-D86B-4599-ADE7-C417E54F79C4}.Release|Any CPU.ActiveCfg = Release
+		{A8DB53F5-E615-4A56-9ABF-25D91A2037ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DB53F5-E615-4A56-9ABF-25D91A2037ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DB53F5-E615-4A56-9ABF-25D91A2037ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DB53F5-E615-4A56-9ABF-25D91A2037ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
